@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Checker</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <h1>Weather Checker</h1>
+
+    <div id="input-container">
+        <form id="weather-form">
+            <label for="city">City:</label>
+            <input type="text" id="city" placeholder="Enter City">
+            <br>
+
+            <button type="submit">Check Weather</button>
+        </form>
+
+        <!-- Weather Information Box -->
+        <div class="info" id="weather-result">
+            <h1 class="info-title">Weather for <span id="weather-city"></span></h1>
+            <p class="info-data">Temperature: <span id="temperature"></span></p>
+            <p class="info-data">Weather: <span id="weather-description"></span></p>
+            <p class="info-data">Humidity: <span id="humidity"></span></p>
+            <p class="info-data">Wind Speed: <span id="wind-speed"></span></p>
+        </div>
+    </div>
+
+    <script src="index1.js"></script>
+
+</body>
+</html>

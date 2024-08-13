@@ -1,0 +1,95 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: skyblue; /* Sky Blue */
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+h1 {
+    text-align: center;
+    color: black; /* Black */
+    
+}
+
+#input-container {
+    text-align: center;
+    
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: black; /* White */
+}
+
+input {
+    padding: 10px;
+    margin-bottom: 15px;
+    width: 200px;
+    border: 1px solid #fff; /* White */
+    border-radius: 5px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+button {
+    padding: 12px 20px;
+    background-color: #4CAF50; /* Green */
+    color:black; /* White */
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.info {
+    text-align: center;
+    background-color: #fff; /* White */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Soft Box Shadow */
+    margin-top: 20px;
+    display: none;
+    flex-direction: column;
+}
+
+.info-title {
+    color: #333; /* Dark Gray */
+    margin-bottom: 20px;
+}
+
+.info-data {
+    margin: 8px 0;
+    color: #555; /* Medium Gray */
+    font-size: 20px;
+}
+
+/* Weather Section Styles */
+#weather-result {
+    background-color: #fff; /* White */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Soft Box Shadow */
+    margin-top: 20px;
+    display: none; /* Initially hidden */
+    flex-direction: column;
+}
+
+#weather-result .info-title {
+    color: #333; /* Dark Gray */
+    margin-bottom: 20px;
+}
+
+#weather-result .info-data {
+    margin: 8px 0;
+    color: #555; /* Medium Gray */
+    font-size: 20px;
+}
